@@ -20,7 +20,7 @@ Please follow the below steps to configure a WebApp running on an AWS EC2 instan
 
    git clone https://github.com/bhavukm/webapp-asg-alb.git
 
-   cp -r webapp-asg-alb/ /var/www/html
+   cp -r webapp-asg-alb/* /var/www/html
 
    systemctl start httpd
 
